@@ -1,0 +1,10 @@
+#!/Users/Newton/VSCode/code-portable-data/extensions/algoritmika.algopython-20240404.120101.0/data/student/3529166/188171/my_venv/bin/python3
+# -*- coding: utf-8 -*-
+import re
+import sys
+
+from PyInstaller.utils.cliutils.set_version import run
+
+if __name__ == '__main__':
+    sys.argv[0] = re.sub(r'(-script\.pyw?|\.exe)?$', '', sys.argv[0])
+    sys.exit(run())
